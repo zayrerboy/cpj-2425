@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Creative Process Journal, 24-25.</title>
+
+  <!-- Meta information, for machines to read, SEO -->
+  <meta charset="utf-8" />
+  <meta name="description" content="" />
+  <meta name="Author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <link rel="icon" type="image/svg+xml" href="seedling-emoji.png" />
+
+  <!-- Load StyleSheets -->
+  <link rel="stylesheet" type="text/css" href="../../css/styles.css" />
+</head>
+
+<body>
+
+  <!-- header and footer section, the menu. -->
+  <header>
+    <nav class="main__nav-bar">
+      <ul class="main__nav-title">
+        <li><a href="/">Dreaming of an Interspecies Sensor</a></li>
+        <li class="mobile__hide"><a href="/about">Zarer Lim</a></li>
+      </ul>
+      <ul class="main__nav-list">
+        <li class="main__nav-item"><a href="/">overview</a></li>
+        <li class="main__nav-item"><a href="/repository">repository</a></li>
+        <li class="main__nav-item"><a href="/about">about</a></li>
+        <li class="main__nav-about">
+          <p>
+            A design communication graduation project.
+          </p>
+        </li>
+      </ul>
+      <div class="main__nav-ham">
+        <span class="main__nav-ham-bar"></span>
+        <span class="main__nav-ham-bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- main section, all your content goes here. -->
+  <main>
+
+    <article>
+
+      <section id="full-size-image">
+        <div class="row">
+          <img src="/assets/images/Week-9/hands.jpg" class="img__cover-50" style="margin-top: 2px;" />
+        </div>
+        <figcaption>
+          <p><b>Touch Grass</b> @leastuedahl </p>
+        </figcaption>
+      </section>
+
+      <section id="example-1">
+        <div class="width__s margin__auto padding__y-l">
+          <div class="row type__content">
+            <div class="column">
+              <h1>I cloned a human hand 🪩
+              </h1>
+              <p>
+                This week, the atelier went through a brief introduction of Arduino and attended a talk by Feelers
+                Feelers about their practice in the intersection of art and technology. I also began experimenting more
+                with p5js
+                and worked on a making a prosthetic hand.
+
+              </p>
+            </div>
+          </div>
+
+          <div class="row type__content">
+            <div class="column">
+              <h2><em>① Arduino Introduction </em> </h2>
+              <p>
+                During the first workshop, the atelier was introduced to the different components of an Arduino kit and
+                the resources available online to get started in arduino.
+
+              </p>
+            </div>
+            <div class="column">
+              <p>
+                We were then introduced to the different components such as motion sensor, light sensor, etc, and the
+                one that I found partcularly simple and straightforwatd was the servo motor.
+              </p>
+
+            </div>
+          </div>
+
+
+          <div class="row type__content">
+            <ul>
+              <li><img src="/assets/images/Week-9/arduino-intro.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Introduction to Arduino workshop by Andreas Schlegel </b> 9 Oct 2024
+                    </a></p>
+              </li>
+              <li><img src="/assets/images/Week-9/andreas-toy.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Accelerometer (as input) Device </b> 9 Oct 2024
+                    </a></p>
+              </li>
+            </ul>
+            <ul>
+              <li><img src="/assets/images/Week-9/servo-motor.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Servo Motor </b> 9 Oct 2024
+                    </a></p>
+              </li>
+              <li>
+                <video class="lazy img__cover-50" autoplay muted playsinline loop controls preload="none" width="100%"
+                  poster="">
+                  <source data-src="/assets/images/week-9/servo-motor-demo.mp4" type="video/mp4" />
+                </video>
+                <figcaption>
+                  <p><b>Servo Motor Demo</b> 9 Oct 2024</p>
+                </figcaption>
+
+              </li>
+            </ul>
+
+          </div>
+      </section>
+
+
+
+      <section id="example-1">
+        <div class="width__s margin__auto padding__y-l">
+          <div class="row type__content">
+            <ul>
+              <li>
+                <h2><em>② Let's make a hand! </em> </h2>
+                <p>
+                  During week 8 as i was writing my RPO, I became curious about how a prosthetic can allow users to be
+                  in touch with nature intimately at the comfort of my desk. Also in relation to my previous taks and
+                  interactions with nature, I realise I do like to touch nature and begin to wonder if a simple
+                  prosthetic can help be “in touch” with nature.
+
+                </p>
+              </li>
+              <div class="column">
+                <p>
+                  Following a youtube tutorial, I made my first ever artificial hand with the materials I had - Paper,
+                  Wall-plug and Strings. The process was not as easy as the wall plugs had very tiny holes to thread the
+                  string through. As soon as I was done, I did some user-testing from touching my hands to face, a paper
+                  ball to the nearest nature I could find.
+
+                </p>
+              </div>
+            </ul>
+            <ul>
+              <li><img src="/assets/images/Week-9/rubber-hand-experiment.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Rubber Hand Experiment </b> illustration by Reddit account 'LeastGenericUsername'</p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/Week-9/youtube-tutorial.jpg" class="zoom" />
+                <figcaption>
+                  <p><b>DIY Robotic Hand tutorial </b><a href="https://www.youtube.com/watch?app=desktop&v=svMXxXSEJoY"
+                      target="_blank"> by The Amaze Lab </a></p>
+                </figcaption>
+              </li>
+            </ul>
+
+            <ul>
+              <li><img src="/assets/images/Week-9/hand-prototype1.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Wall Plug, Tape and Paper </b></p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/Week-9/hand-prototype2.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>DIY thread needle </b></p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/Week-9/hand-prototype3.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>80% Done </b></p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/Week-9/hand-prototype4.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Final DIY Robotic Hand</b></p>
+                </figcaption>
+              </li>
+            </ul>
+
+            <li>
+              <video class="lazy img__cover-50" autoplay muted playsinline loop controls preload="none" width="100%"
+                poster="">
+                <source data-src="/assets/images/week-9/hand-prototype-testing.mp4" type="video/mp4" />
+              </video>
+              <figcaption>
+                <p><b>First user-testing with myself</b> – Wallplug, Tape, Paper, Cupboard and Threads</p>
+              </figcaption>
+
+            </li>
+
+
+            <ul>
+              <p>
+                Then I got a bit creative and see how I can interact with this prosthetic. I put it at the back of my
+                head, let it touch my face (ticklish) and held a paper ball.
+              </p>
+            </ul>
+
+            <ul>
+              <li><img src="/assets/images/Week-9/handplay-1.jpg" class="zoom" />
+                <figcaption>
+                  <p><b>Holding paper ball </b></p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/Week-9/handplay-2.jpg" class="zoom" />
+                <figcaption>
+                  <p><b>Touching human face </b></p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/Week-9/handplay-3.jpg" class="zoom" />
+                <figcaption>
+                  <p><b>Hand at the back of my head </b></p>
+                </figcaption>
+              </li>
+            </ul>
+
+
+            <ul>
+              <p>
+                I touched the nearest tree I could find and Junliang accidentally recorded that in slow-mo which I
+                thought it was kinda sexy.
+              </p>
+            </ul>
+            <ul>
+              <li>
+                <video class="lazy img__cover-50" autoplay muted playsinline loop controls preload="none" width="50%"
+                  poster="">
+                  <source data-src="/assets/images/week-9/hand-prototype-testing5.mp4" type="video/mp4" />
+                </video>
+                <figcaption>
+                  <p><b>Touching the nearest tree</b></p>
+                </figcaption>
+              </li>
+            </ul>
+
+            <ul>
+              <p>
+                So then I gathered more users to try. First, Junliang. He tried locking hands with prosthetic.
+              </p>
+            </ul>
+
+            <ul>
+              <li>
+                <video class="lazy img__cover-50" autoplay muted playsinline loop controls preload="none" width="100%"
+                  poster="">
+                  <source data-src="/assets/images/week-9/hand-prototype-testing2.mp4" type="video/mp4" />
+                </video>
+                <figcaption>
+                  <p><b>Locking Hands</b> – User: Junliang, 25</p>
+                </figcaption>
+              </li>
+
+              <li>
+                <video class="lazy img__cover-50" autoplay muted playsinline loop controls preload="none" width="100%"
+                  poster="">
+                  <source data-src="/assets/images/week-9/hand-prototype-testing3.mp4" type="video/mp4" />
+                </video>
+                <figcaption>
+                  <p><b>“Not to sound morbid, but It felt like my late grandfather’s hand”</b> – User: Anna, 24 </p>
+                </figcaption>
+              </li>
+
+              <li>
+                <video class="lazy img__cover-50" autoplay muted playsinline loop controls preload="none" width="100%"
+                  poster="">
+                  <source data-src="/assets/images/week-9/hand-prototype-testing4.mp4" type="video/mp4" />
+                </video>
+                <figcaption>
+                  <p><b>Holding herself repeatedly</b> – User: Vionetta, 20 </p>
+              </li>
+
+              <li><img src="/assets/images/Week-9/hand-prototype-testing6.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Pure Bliss </b> – User: Alda, 23</p>
+                </figcaption>
+              </li>
+            </ul>
+
+            <ul>
+              <p>
+                I didn’t know how to feel about this user-testing experience. My initial thought was ‘oh let’s make an
+                artificial hand to touch nature for humans” - well since my entire paper was about human and nature
+                relationship. So then I brought it to Instagram to ask more people.
+              </p>
+            </ul>
+
+            <ul>
+              <li>
+                <video class="lazy img__cover-50" autoplay muted playsinline loop controls preload="none" width="100%"
+                  poster="">
+                  <source data-src="/assets/images/week-9/igstory.mp4" type="video/mp4" />
+                </video>
+                <figcaption>
+                  <p><b>Surveying on social media</b> – ig story</p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/Week-9/data-collection1.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>"What shoul it touch next?" </b> – data collection 1</p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/Week-9/data-collection2.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>"What shoul it touch next?" </b> – data collection 2</p>
+                </figcaption>
+              </li>
+            </ul>
+            <ul>
+              <li><img src="/assets/images/Week-9/data-results.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Responses 'Humans' vs 'Non-humans'</b> – 10 Oct 2024</p>
+                </figcaption>
+              </li>
+            </ul>
+
+            <ul>
+              <p>
+                Reflection: <br>
+                I don’t know.. are people just lonely…? and have the desire to be touched?? HAHAH? It seems
+                like humans’ these days crave for physical interactions with another body even if its’ artificial.
+              </p>
+            </ul>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="example-1">
+        <div class="width__s margin__auto padding__y-l">
+          <div class="row type__content">
+            <div class="column">
+              <h2> <em> ③ Seeing Creatures</em> 🔎</h2>
+              <p>
+                Based on last week exercise, apart from the tactile experience, I was also inspired by this picture. A
+                prosthetic touching nature kinda reminded me of my first sketch that I did in Week 2.
+
+              </p>
+            </div>
+            <div class="column">
+              <p>
+                In this picture, the hand is touching a poster pasted on the wall. It’s a bit of a stretch but visually
+                they look like they belong together. Like friends with exposed inner workings of their body part!
+
+              </p>
+
+            </div>
+            <ul>
+              <li><img src="/assets/images/week-1/sketch-1.png" class="zoom" />
+                <figcaption>
+                  <p><b>Week 1 Sketch </b> – Trees Hand </p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/week-9/hand-tree.jpg" class="zoom" />
+                <figcaption>
+                  <p><b>Hand-tree interaction</b></p>
+                </figcaption>
+              </li>
+
+            </ul>
+            <ul>
+              So then, I just indulged in this aesethtic and wanted to created my own version. First, I looked through
+              my Week 7 of my ‘personal archive’ to look for some pictures. I recall photographing one particular
+              picture, which I named “car-beautiful-tree-sky-humans-buildings.jpeg” , that took me three shots. First
+              without zooom, second with zoom and third with more zoom and waiting for humans to walk away. Each time
+              cropping away more things for my satisfaction.
+            </ul>
+
+            <ul>
+              <li><img src="/assets/images/week-9/rochor-tree.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Tree outside Rochor, Singapore</b> saved on Week 7 "Interspecies Encounters" Are.na Boaard </p>
+                </figcaption>
+              </li>
+            </ul>
+
+            <ul>
+              <li><img src="/assets/images/week-9/rochor-tree-1.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>First Shot </b>– no zoom</p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/week-9/rochor-tree-2.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Second Shot </b>– zoomed</p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/week-9/rochor-tree-3.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Third Shot </b>– more zoom + waited for humans to walk away</p>
+                </figcaption>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <p>
+                  But did I liked it? Probably. But the fact is I only remember the existence of this file becaue I
+                  intently searched for nature picture in my phone gallery. Recalling the three shots it took, I printed
+                  the picture out and erased things that I wanted to crop out further.
+
+                </p>
+              </li>
+              <li>
+                <p>
+                  Using white posca marker, like a correction tool, I removed things like cars, humans, buildings and
+                  well, just urban stuff. The result is a form derivative of my perception of what I saw in the tree
+                  outside Rochor.
+
+                </p>
+              </li>
+            </ul>
+
+
+            <ul>
+              <li><img src="/assets/images/week-9/white-posca.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>White Posca Marker </b> </p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/week-9/scan2.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>White Posca on image </b> </p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/week-9/tee-at-rochor.jpg" class="zoom" />
+                <figcaption>
+                  <p><b>Scanned Artwork </b> </p>
+                </figcaption>
+              </li>
+            </ul>
+
+
+            <ul>
+              <li><img src="/assets/images/week-9/punggol-park-tree.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Tree at punggol park </b> saved on Week 7</p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/week-9/tree-at-punggol-park.jpg" class="zoom" />
+                <figcaption>
+                  <p><b>Cropped tree at punggol park </b> White posca on printed image</p>
+                </figcaption>
+              </li>
+
+            </ul>
+
+            <ul>
+              <li><img src="/assets/images/week-9/ban-nee-chen-kovan-bonsai-roots.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Bonsai Roots at Ban Nee Chen, Kovan </b> saved on Week 7</p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/week-9/bonsai-at-kovan-ban-nee-chen.jpg" class="zoom" />
+                <figcaption>
+                  <p><b>Cropped roots at Ban Nee Chen, Kovan </b> White posca on printed image</p>
+                </figcaption>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <p>
+                  Feeling happy with my outcome, I shared it with my fellow designer/friend and her immediate response
+                  were
+                  “wow what is this?”, “I can imagine a drawing over it”. I wasn’t surprised because she’s an
+                  illustrator…
+
+                </p>
+              </li>
+              <li>
+                <p>
+                  But what surprised me was how quick she responded with a drawing of species. Suddenly, the project in
+                  week 7 when I was trying to imagine a new form of “hybrid entities” revived into a new idea.
+
+                </p>
+              </li>
+            </ul>
+
+            <ul>
+              <li><img src="/assets/images/week-9/convo-with-jialing.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Tele-communication with a friend </b> Jia Ling, 25, Illustrator </p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/week-9/convo-with-jialing2.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Tele-communication with a friend </b> Jia Ling, 25, Illustrator </p>
+                </figcaption>
+              </li>
+            </ul>
+
+            <ul>
+              <li><img src="/assets/images/week-9/drawing1.JPG" class="zoom" />
+                <figcaption>
+                  <p><b>Tracing Roots Artwork on iPhone</b> by Jia Ling, 25, Illustrator</p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/week-9/drawing2.JPG" class="zoom" />
+                <figcaption>
+                  <p><b>Tracing Roots Artwork on iPhone</b> by Myself, 25, Designer</p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/week-9/drawing3.JPG" class="zoom" />
+                <figcaption>
+                  <p><b>Tracing Roots Artwork on iPhone </b> by Junliang, 25, Designer</p>
+                </figcaption>
+              </li>
+            </ul>
+
+
+
+
+
+          </div>
+        </div>
+      </section>
+
+      <section id="example-1">
+        <div class="width__s margin__auto padding__y-l">
+          <div class="row type__content">
+            <div class="column">
+              <h2> <em> ④ Feelers Feelers</em> 🔎</h2>
+              <p>
+                The atelier had the honour of having Ashley Hi from 'Feelers Feelers' to give an introduction about
+                their
+                practice in the intersection of art and technology.
+
+              </p>
+            </div>
+            <div class="column">
+              <p>
+                During this week, the atelier also had the honour of havinh Ashley Hi from
+              </p>
+              <figcaption>
+                <p><b>Feelers Feelers</b> <a href="https://www.feelers-feelers.com/" target="_blank">
+                    Research group that design, teach and facilitate programmes around art and technology </a></p>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="row type__content">
+            <ul>
+              <li><img src="/assets/images/Week-9/school-of-alternate-internet.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>School of Alternate Internets</b> <a href="https://www.feelers-feelers.com/soai-main"
+                      target="_blank">
+                      Workshop by Feelers Feelers to expand public understanding of technology, foster critical thinking
+                      and creative exploration</a></p>
+                </figcaption>
+              </li>
+            </ul>
+
+            <ul>
+              <li><img src="/assets/images/Week-9/eco-web.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Greener Screens Kit </b> by Feelers Feelers</p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/Week-9/tracking emission.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Sharing on tracking and measuring carbon usage</b> <a
+                      href="https://www.are.na/zarer-lim/interspecies-encounters" target="_blank"> by Feelers
+                      Feelers</a></p>
+                </figcaption>
+              </li>
+            </ul>
+
+            <ul>
+              <li><img src="/assets/images/Week-9/oliver.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Computational Pandemonium Model</b> <a
+                      href="https://mindhacks.com/2021/01/29/pandemoniums-friendly-demons/" target="_blank">Illustrated
+                      by Leanne Hinton</a></p>
+                </figcaption>
+              </li>
+              <li><img src="/assets/images/Week-9/potato-productions.jpeg" class="zoom" />
+                <figcaption>
+                  <p><b>Potato Productions</b> <a href="https://www.potatoproductions.com/" target="_blank"> A group of
+                      companies in which Feelers Feeler are part of</a></p>
+                </figcaption>
+              </li>
+            </ul>
+
+            <ul>
+
+              <ul>
+
+                <p>Reflection:</p>
+                <li>The reflection is that they have very strong moral compass, high standatds of ethics and
+                  professional. I appreciate the honesty and also it was very heartwarming to see what I am attempting
+                  here being reflected in Feelers Feelers practice. Plus, the fact that an art and technology company
+                  exists in Singapore blows my mind.
+                </li>
+
+
+              </ul>
+            </ul>
+
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="example-2">
+        <div class="color__bg-7 color__fg-2">
+          <div class="width__s margin__auto padding__y-l">
+            <div class="row type__content">
+              <div class="column">
+                <h1>Reflection 😮‍💨</h1>
+                <p>
+
+                  Reflecting on weeks zero to seven, I realised the problem was that I had to update my CPJ regularly.
+                  Updating weeks five to seven made me realise I missed out on opportunities for meaningful feedback and
+                  reflection. It was only
+                  when I put everything aside and start updating my CPJ that the ideation process began to be clearer.
+                  Althought most of them were just sort of eliminating bad ideas, they still contribute to the project
+                  in some ways.
+
+
+                </p>
+              </div>
+            </div>
+          </div>
+      </section>
+
+
+    </article>
+  </main>
+
+  <!-- footer, page ends here.-->
+  <footer>
+    <div class="prev__next">
+      <ul>
+        <li><a href="./week-8.html" id="go-prev">prev</a></li>
+        <li><a href="../../index.html">overview</a></li>
+        <li><a href="./week-10.html" id="go-next">next</a></li>
+      </ul>
+    </div>
+    <div class="scroll__top"><a href="javascript:scrollToTop();">↑</a></div>
+  </footer>
+
+  <div id="lightbox"></div>
+  <script src="../../js/main.js"></script>
+</body>
+
+</html>
