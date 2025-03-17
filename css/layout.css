@@ -220,7 +220,6 @@ figcaption p b {
 footer {
   min-height: 12rem;
   text-align: center;
-  padding-top: var(--spacing-m);
 }
 
 /* 4. main layout */
