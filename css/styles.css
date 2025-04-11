@@ -32,6 +32,8 @@ html {
 * {
     line-height: 115%;
     font-weight: 400;
+    scroll-behavior: smooth;
+
 }
 
 body {
