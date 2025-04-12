@@ -36,6 +36,10 @@ video {
   max-width: 100%;
 }
 
+.cuteborder {
+  border-radius: 12px;
+  border: 1px solid black;
+}
 
 
 /* **********************************************************
@@ -97,7 +101,7 @@ main {
 /* 2.2 repository */
 
 .repo {
-  margin-bottom:var(--spacing-l);
+  margin-bottom: var(--spacing-l);
 }
 
 .repo h2 {
@@ -156,8 +160,9 @@ figcaption p {
   margin-top: var(--spacing-xs);
   font-size: var(--font-size-s);
   font-style: italic;
-  width:80%;
+  width: 80%;
 }
+
 figcaption p b {
   font-weight: 700;
   font-size: inherit;
@@ -188,7 +193,7 @@ figcaption p b {
   font-size: 1.25rem;
   padding: 1rem;
   transition: color 0.3s;
-  color:var(--color-nav-link);
+  color: var(--color-nav-link);
 }
 
 .embed__video-container {
@@ -211,7 +216,7 @@ figcaption p b {
  * image filters
  * https://www.w3schools.com/cssref/css3_pr_filter.php
  */
- .img__bw {
+.img__bw {
   filter: grayscale(100%);
 }
 
@@ -229,7 +234,7 @@ footer {
 }
 
 .row,
-.row > ul {
+.row>ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -242,7 +247,7 @@ footer {
 }
 
 .column,
-.row > ul > li {
+.row>ul>li {
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -290,6 +295,13 @@ ul {
   list-style-type: none;
 }
 
+.quotes {
+  font-family: 'Times New Roman';
+  font-style: italic;
+  padding-top: 5%;
+  font-size: xx-large;
+}
+
 /* **********************************************************
  * Paragraph styling
  * ********************************************************** */
@@ -301,7 +313,7 @@ p {
 
 
 p a {
-  text-decoration:underline;
+  text-decoration: underline;
   text-underline-offset: 3px;
 }
 
@@ -358,11 +370,11 @@ p:not(:last-child) {
   .p__size-l {
     font-size: var(--font-size-m);
   }
-  
+
   .p__size-m {
     font-size: var(--font-size-m);
   }
-  
+
 }
 
 /* **********************************************************
@@ -398,16 +410,16 @@ p:not(:last-child) {
 #lightbox.show {
   visibility: visible;
   opacity: 1;
-  mix-blend-mode:normal;
+  mix-blend-mode: normal;
 }
 
 #lightbox img {
-  margin:auto;
+  margin: auto;
   width: auto;
   height: 90%;
-  object-fit:cover;
-  box-shadow:2rem 2rem 4rem rgba(0, 0, 0, 0.5);
-  opacity:1;
+  object-fit: cover;
+  box-shadow: 2rem 2rem 4rem rgba(0, 0, 0, 0.5);
+  opacity: 1;
   border-radius: 0.25rem;
 }
 
@@ -434,4 +446,74 @@ li {
 
 .outline {
   border: 1px dotted black;
+}
+
+/* ********************************************************** */
+/* slider-styling                                             */
+/* ********************************************************** */
+
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 1.5rem;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-button.left {
+  left: 10px;
+}
+
+.slider-button.right {
+  right: 10px;
+}
+
+.slider-button:hover {
+  background-color: #f4f4f4;
+}
+
+
+/* ********************************************************** */
+/* walkman                                                    */
+/* ********************************************************** */
+
+
+.walk-man-box {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.walk-man-style {
+  width: 5%;
+  height: auto;
+  mix-blend-mode: multiply;
 }

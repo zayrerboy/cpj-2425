@@ -128,18 +128,54 @@ function logErrorMessage(theError) {
 }
 
 
-document.addEventListener("keydown", function(e) {
+document.addEventListener("keydown", function (e) {
   if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey)
-      return;
+    return;
   const o = document.getElementById("go-prev").href
     , s = document.getElementById("go-next").href;
   if (e.key == "ArrowLeft")
-      window.location.assign(o);
+    window.location.assign(o);
   else if (e.key == "ArrowRight")
-      window.location.assign(s);
+    window.location.assign(s);
   else if (e.key == "Escape") {
-      const t = document.getElementById("bio-details");
-      t.classList.toggle("expanded"),
+    const t = document.getElementById("bio-details");
+    t.classList.toggle("expanded"),
       t.classList.toggle("collapsed")
   }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".slider-container").forEach(container => {
+    const track = container.querySelector(".slider-track");
+    const slides = track.querySelectorAll(".slide");
+    let currentIndex = 0;
+
+    const updateSlider = () => {
+      track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    };
+
+    const nextSlide = () => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      updateSlider();
+    };
+
+    const prevSlide = () => {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      updateSlider();
+    };
+
+    container.querySelector(".slider-button.left").addEventListener("click", prevSlide);
+    container.querySelector(".slider-button.right").addEventListener("click", nextSlide);
+
+    // Autoplay every 1.5 seconds
+    let autoSlide = setInterval(nextSlide, 1500);
+
+    // Pause autoplay on hover
+    container.addEventListener("mouseover", () => clearInterval(autoSlide));
+    container.addEventListener("mouseout", () => {
+      autoSlide = setInterval(nextSlide, 1500);
+    });
+  });
+});
+
+
