@@ -502,7 +502,7 @@ li {
 
 
 /* ********************************************************** */
-/* walkman                                                    */
+/* gifs                                                       */
 /* ********************************************************** */
 
 
@@ -516,4 +516,34 @@ li {
   width: 5%;
   height: auto;
   mix-blend-mode: multiply;
+}
+
+.gif-xs {
+width: 10%;
+height: auto;
+padding-bottom: 1.5rem;
+}
+
+.gif-s {
+width: 15%;
+height: auto;
+padding-bottom: 1.5rem;
+}
+
+.gif-m {
+width: 40%;
+height: auto;
+padding-bottom: 1.5rem;
+}
+
+.gif-l {
+width: 55%;
+height: auto;
+padding-bottom: 1.5rem;
+}
+
+.gif-xl {
+width: 80%;
+height: auto;
+padding-bottom: 1.5rem;
 }
