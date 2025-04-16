@@ -41,7 +41,6 @@ video {
   border: 1px solid black;
 }
 
-
 /* **********************************************************
  * now let's take care of our main layout and content
  *
@@ -66,7 +65,6 @@ header {
 main {
   margin-top: var(--header__height);
 }
-
 
 /* 2.1 weekly */
 
@@ -96,7 +94,6 @@ main {
 .weekly ul li a:hover {
   padding-left: var(--spacing-s);
 }
-
 
 /* 2.2 repository */
 
@@ -168,7 +165,6 @@ figcaption p b {
   font-size: inherit;
 }
 
-
 /* 2.4 misc */
 
 .fixed {
@@ -211,7 +207,6 @@ figcaption p b {
   height: 100%;
 }
 
-
 /*
  * image filters
  * https://www.w3schools.com/cssref/css3_pr_filter.php
@@ -234,7 +229,7 @@ footer {
 }
 
 .row,
-.row>ul {
+.row > ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -247,7 +242,7 @@ footer {
 }
 
 .column,
-.row>ul>li {
+.row > ul > li {
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -296,7 +291,7 @@ ul {
 }
 
 .quotes {
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
   font-style: italic;
   padding-top: 5%;
   font-size: xx-large;
@@ -306,11 +301,9 @@ ul {
  * Paragraph styling
  * ********************************************************** */
 
-
 p {
   font-size: var(--font-size-m);
 }
-
 
 p a {
   text-decoration: underline;
@@ -374,14 +367,12 @@ p:not(:last-child) {
   .p__size-m {
     font-size: var(--font-size-m);
   }
-
 }
 
 /* **********************************************************
  * special features           
  * 1. lightbox
  * ********************************************************** */
-
 
 /* 1. lightbox
  * click on an image (must implement class="zoom") to go full size 
@@ -452,7 +443,6 @@ li {
 /* slider-styling                                             */
 /* ********************************************************** */
 
-
 .slider-container {
   position: relative;
   width: 100%;
@@ -499,11 +489,9 @@ li {
   background-color: #f4f4f4;
 }
 
-
 /* ********************************************************** */
 /* gifs                                                       */
 /* ********************************************************** */
-
 
 .walk-man-box {
   display: flex;
@@ -516,48 +504,104 @@ li {
   height: auto;
   mix-blend-mode: multiply;
 }
-
+/* 
 .gif-xs {
-width: 8%;
-height: auto;
-padding-bottom: 1.5rem;
+  width: 8%;
+  height: auto;
+  padding-bottom: 1.5rem;
 }
 
 .gif-s {
-width: 15%;
-height: auto;
-padding-bottom: 1.5rem;
+  width: 15%;
+  height: auto;
+  padding-bottom: 1.5rem;
 }
 
 .gif-m {
-width: 40%;
-height: auto;
-padding-bottom: 1.5rem;
+  width: 40%;
+  height: auto;
+  padding-bottom: 1.5rem;
 }
 
 .gif-l {
-width: 55%;
-height: auto;
-padding-bottom: 1.5rem;
+  width: 55%;
+  height: auto;
+  padding-bottom: 1.5rem;
 }
 
 .gif-xl {
-width: 80%;
-height: auto;
-padding-bottom: 1.5rem;
-}
-
-
-@media only screen and (max-width: 768px) {
-
-.gif-mobile {
-width: 15%;
-}
+  width: 80%;
+  height: auto;
+  padding-bottom: 1.5rem;
+} */
 
 .gif-mobile-box {
-display: flex;
-flex-direction: column;
+    display: flex;
+}
 
+.gif-mobile {
+  height:70%;
+}
+
+.gif-list {
+  display:flex;
+  /* outline:1px solid red; */
+  margin-bottom:1rem;
+}
+
+.gif-list li {
+  height:3rem;
+}
+.gif-list li img {
+  height:2.5rem;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .gif-mobile {
+    display: none;
   }
+}
+
+
+.sketch-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.label-overlay {
+  position: absolute;
+  top: 55%;
+  left: 0;
+  width: 100%;
+  height: 45%; /* Only the lower half */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  pointer-events: none;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
 
 }
+
+.label-row {
+  display: flex;
+  justify-content: space-between;
+  height: 40%;
+  /* border: 1px solid blue; */
+}
+
+.label-cell {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  /* border: 1px solid purple; */
+}
+

@@ -168,12 +168,12 @@ document.addEventListener("DOMContentLoaded", () => {
     container.querySelector(".slider-button.right").addEventListener("click", nextSlide);
 
     // Autoplay every 1.5 seconds
-    let autoSlide = setInterval(nextSlide, 1500);
+    let autoSlide = setInterval(nextSlide, 4000);
 
     // Pause autoplay on hover
     container.addEventListener("mouseover", () => clearInterval(autoSlide));
     container.addEventListener("mouseout", () => {
-      autoSlide = setInterval(nextSlide, 1500);
+      autoSlide = setInterval(nextSlide, 4000);
     });
   });
 });

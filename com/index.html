@@ -37,6 +37,12 @@
         overflow-y: scroll;
         padding: 2%;
       }
+
+      @media only screen and (max-width: 768px) {
+        .left-panel {
+          display:none;
+        }
+      }
     </style>
   </head>
 
@@ -92,11 +98,15 @@
                   <p class="p__size-m margin__bottom-xs"> Semester 2</p>
 
                   <ul>
-                    <li><a href="#_blank">⑦ A Friendly Hand+</a></li>
-                    <li><a href="#_blank">⑧ A Machine Fantasy of the
-                        Forest</a></li>
-                    <li><a href="#_blank">⑨ Dreaming of an Interspecies
-                        Sensor</a></li>
+                    <li><a href="#speculative-sketches">① Speculative
+                        Sketches</a></li>
+                    <li><a href="#a-friendly-hand+">② A Friendly Hand+</a></li>
+                    <li><a href="#dance-forest-dance">③ Dance, Forest,
+                        Dance;</a></li>
+                    <li><a href="#a-machine-fantasy-of-the-forest">④ A Machine
+                        Fantasy of the Forest (Film Essay)</a></li>
+                    <li><a href="#dreaming-of-an-interspecies-sensor">⑤ Dreaming
+                        of an Interspecies Sensor (Publication)</a></li>
                   </ul>
 
                   <div
@@ -152,10 +162,14 @@
 
                     <h2>Prototype ① : <br><i>Root Watching</i></h2>
                     <div class="row">
-                      <img src="/assets/images/general/tree.gif"
-                        class="gif-xs" alt="tree">
-                      <img src="/assets/images/general/lpatop-icon.gif"
-                        class="gif-xs" alt="Smartphone">
+                      <div class="colum">
+                        <ul class="gif-list">
+                          <li><img src="/assets/images/general/tree.gif"
+                              alt="tree"></li>
+                          <li><img src="/assets/images/general/lpatop-icon.gif"
+                              alt="tree"></li>
+                        </ul>
+                      </div>
                     </div>
                     <p class="p__size-s">
                       <em>Root Watching</em> invites everyday people to slow
@@ -168,7 +182,6 @@
                       of noticing, sensing, and forming care toward the
                       more-than-human world.
                     </p>
-
                   </div>
                   <div class="column">
                     <ul>
@@ -398,8 +411,10 @@
                 <div class="row type__content">
                   <div class="column">
                     <h2>Prototype ② <br> <i>Game of Life Pixel Pad</i></h2>
-                    <img src="/assets/images/general/lpatop-icon.gif"
-                      class="gif-xs" alt="Smartphone">
+                    <ul class="gif-list">
+                      <li><img src="/assets/images/general/lpatop-icon.gif"
+                          alt="tree"></li>
+                    </ul>
                     <p class="p__size-s">
                       <em>Game of Life Pixel Pad</em> is an interactive
                       experiment built using <em>p5.js</em> and <em>PoseNet</em>
@@ -558,10 +573,14 @@
                   <div class="column">
                     <h2>Prototype ③ <br> <i>Hearing Life</i></h2>
                     <div class="row">
-                      <img src="/assets/images/general/tree.gif"
-                        class="gif-xs" alt="tree">
-                      <img src="/assets/images/general/lpatop-icon.gif"
-                        class="gif-xs" alt="Smartphone">
+
+                      <ul class="gif-list">
+                        <li><img src="/assets/images/general/tree.gif"
+                            alt="tree"></li>
+                        <li><img src="/assets/images/general/lpatop-icon.gif"
+                            alt="tree"></li>
+                      </ul>
+
                     </div>
                     <p class="p__size-s">
                       <em>Hearing Life</em> is a generative sound experiment
@@ -651,14 +670,15 @@
                 <div class="row type__content">
                   <div class="column">
                     <h2>Prototype ④ <br> <i>Sonic Head Scratcher</i></h2>
-                    <div class="row">
-                      <img src="/assets/images/general/tree.gif"
-                        class="gif-xs" alt="tree">
-                      <img src="/assets/images/general/lpatop-icon.gif"
-                        class="gif-xs" alt="Smartphone">
-                      <img src="/assets/images/general/smartphone-icon.gif"
-                        class="gif-xs" alt="smartphone">
-                    </div>
+
+                    <ul class="gif-list">
+                      <li><img src="/assets/images/general/tree.gif"
+                          alt="Tree"></li>
+                      <li><img src="/assets/images/general/lpatop-icon.gif"
+                          alt="Laptop"></li>
+                      <li><img src="/assets/images/general/smartphone-icon.gif"
+                          alt="Smartphone"></li>
+                    </ul>
 
                     <p class="p__size-s">
                       <em>Sonic Head Scratcher</em> is a curated Spotify
@@ -775,12 +795,13 @@
                 <div class="row type__content">
                   <div class="column">
                     <h2>Prototype ⑤ <br> <i>Feelers</i></h2>
-                    <div class="row">
-                      <img src="/assets/images/general/tree.gif"
-                        class="gif-s" alt="tree">
-                      <img src="/assets/images/general/hand.gif"
-                        class="gif-s" alt="hand">
-                    </div>
+
+                    <ul class="gif-list">
+                      <li><img src="/assets/images/general/tree.gif"
+                          alt="Tree"></li>
+                      <li><img src="/assets/images/general/hand.gif"
+                          alt="Laptop"></li>
+                    </ul>
 
                     <p class="p__size-s">
                       <p class="p__size-s">
@@ -851,197 +872,449 @@
 
                     </ul>
                   </div>
-                </section>
+                </div>
+              </div>
+            </section>
 
-                <section id="a-friendly-hand"
-                  style="border-top: 1px solid black;">
-                  <div class="width__l margin__auto padding__top-l">
-                    <div class="row type__content">
-                      <div class="column">
-                        <h2>Prototype ⑥ <br> <i>A Friendly Hand</i></h2>
-                        <div class="row">
-                          <img src="/assets/images/general/tree.gif"
-                            class="gif-s" alt="tree">
-                          <img src="/assets/images/general/smartphone-icon.gif"
-                            class="gif-s" alt="smartphone">
-                          <img src="/assets/images/general/hand.gif"
-                            class="gif-s" alt="hand">
-                        </div>
+            <section id="a-friendly-hand"
+              style="border-top: 1px solid black;">
+              <div class="width__l margin__auto padding__top-l">
+                <div class="row type__content">
+                  <div class="column">
+                    <h2>Prototype ⑥ <br> <i>A Friendly Hand</i></h2>
 
-                        <p class="p__size-s">
-                          <p class="p__size-s">
-                            <strong>A Friendly Hand</strong> is a paper-based
-                            sensing machine that performs a slow, clumsy
-                            choreography in response to light.
-                            Built using an <em>Arduino</em>, <em>micro
-                              servo</em>,
-                            and <em>LDR sensor</em>, its hand-like form was
-                            inspired
-                            by the
-                            <em>mycorrhizal network</em>—often imagined as roots
-                            reaching out beneath the forest floor.
-                            When light from a screen changes, the hand gently
-                            pulls
-                            and releases a thread,
-                            as if waving, reaching, or maybe just trying its
-                            best to
-                            say <em>hello</em>.
-                            Intended not as a solution but a gesture, <em>A
-                              Friendly
-                              Hand</em> invites viewers to reconsider the
-                            signals we
-                            send and receive
-                            across species, wires, and wavelengths. It’s part
-                            <em>prosthetic</em>, part <em>puppet</em>—fully
-                            <em>speculative</em>.
-                          </p>
+                    <ul class="gif-list">
+                      <li><img src="/assets/images/general/tree.gif"
+                          alt="Tree"></li>
+                      <li><img
+                          src="/assets/images/general/smartphone-icon.gif"
+                          alt="Smartphone"></li>
+                      <li><img src="/assets/images/general/hand.gif"
+                          alt="Hand"></li>
+                    </ul>
 
-                        </p>
-                      </div>
+                    <p class="p__size-s">
+                      <p class="p__size-s">
+                        <strong>A Friendly Hand</strong> is a paper-based
+                        sensing machine that performs a slow, clumsy
+                        choreography in response to light.
+                        Built using an <em>Arduino</em>, <em>micro
+                          servo</em>,
+                        and <em>LDR sensor</em>, its hand-like form was
+                        inspired
+                        by the
+                        <em>mycorrhizal network</em>—often imagined as roots
+                        reaching out beneath the forest floor.
+                        When light from a screen changes, the hand gently
+                        pulls
+                        and releases a thread,
+                        as if waving, reaching, or maybe just trying its
+                        best to
+                        say <em>hello</em>.
+                        Intended not as a solution but a gesture, <em>A
+                          Friendly
+                          Hand</em> invites viewers to reconsider the
+                        signals we
+                        send and receive
+                        across species, wires, and wavelengths. It’s part
+                        <em>prosthetic</em>, part <em>puppet</em>—fully
+                        <em>speculative</em>.
+                      </p>
 
-                      <div class="column">
+                    </p>
+                  </div>
 
-                        <img class="cuteborder zoom"
-                          src="/assets/images/com/a-friendly-hand/mycorrhizal-network-d.-parkins.jpeg"
-                          alt="Mycorrhizal Network" />
+                  <div class="column">
+
+                    <img class="cuteborder zoom"
+                      src="/assets/images/com/a-friendly-hand/mycorrhizal-network-d.-parkins.jpeg"
+                      alt="Mycorrhizal Network" />
+                    <figcaption>
+                      <p><b>Underground Networking</b>
+                        Illustration by D. Parkins <a
+                          href="https://www.nature.com/articles/449136a">Link</a>
+                      </p>
+                    </figcaption>
+                  </div>
+
+                  <div class="column">
+                    <ul>
+                      <li>
+                        <video class="lazy img__cover-50 cuteborder"
+                          autoplay
+                          muted
+                          playsinline loop controls preload="none"
+                          width="100%">
+                          <source
+                            data-src="/assets/images2/Week5/dancing-hand1.mp4"
+                            type="video/mp4" />
+                        </video>
                         <figcaption>
-                          <p><b>Underground Networking</b>
-                            Illustration by D. Parkins <a
-                              href="https://www.nature.com/articles/449136a">Link</a>
+                          <p><b>A Friendly Hand's First Dance </b> -
+                            captured in Bedroom
                           </p>
                         </figcaption>
-                      </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
 
-                      <div class="column">
-                        <ul>
-                          <li>
-                            <video class="lazy img__cover-50 cuteborder"
-                              autoplay
-                              muted
-                              playsinline loop controls preload="none"
-                              width="100%">
-                              <source
-                                data-src="/assets/images2/Week5/dancing-hand1.mp4"
-                                type="video/mp4" />
-                            </video>
-                            <figcaption>
-                              <p><b>A Friendly Hand's First Dance </b> -
-                                captured in Bedroom
-                              </p>
-                            </figcaption>
-                          </li>
-                        </ul>
+                <div class="row type__content">
+                  <div class="column">
+                    <video class="lazy img__cover-50 cuteborder"
+                      autoplay
+                      muted
+                      playsinline loop controls preload="none"
+                      width="100%">
+                      <source
+                        data-src="/assets/images/com/a-friendly-hand/algorthimic-circles-short-ezgif.com-crop-video.mp4"
+                        type="video/mp4" />
+                    </video>
+                    <figcaption>
+                      <p><b>Friendly Hand v.1 </b> - reacting to
+                        Algorithmic Circles
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="column">
+                    <video class="lazy img__cover-50 cuteborder"
+                      autoplay
+                      muted
+                      playsinline loop controls preload="none"
+                      width="100%">
+                      <source
+                        data-src="/assets/images/com/a-friendly-hand/algorithmic-circles-screen.mp4"
+                        type="video/mp4" />
+                    </video>
+                    <figcaption>
+                      <p><b>Algorithmic Circles Animation </b> - played on
+                        screen
+                      </p>
+                    </figcaption>
+                  </div>
+                </div>
+
+                <div class="row type__content">
+                  <div class="column">
+                    <video class="lazy img__cover-50 cuteborder"
+                      autoplay
+                      muted
+                      playsinline loop controls preload="none"
+                      width="100%">
+                      <source
+                        data-src="/assets/images/com/a-friendly-hand/shifting-gradient-short-ezgif.com-crop-video.mp4"
+                        type="video/mp4" />
+                    </video>
+                    <figcaption>
+                      <p><b>A Friendly Hand v.1 </b> - reacting to
+                        Algorithmic Circles
+                      </p>
+                    </figcaption>
+                  </div>
+                  <div class="column">
+                    <img
+                      src="/assets/images/com/a-friendly-hand/gradient.jpeg"
+                      alt="gradient" class="zoom cuteborder">
+                    <figcaption>
+                      <p><b>Gradient Image </b> - shown on screen
+                      </p>
+                    </figcaption>
+                  </div>
+                </div>
+
+                <div class="row type__content">
+                  <ul>
+                    <div class="slider-container cuteborder">
+                      <div class="slider-track">
+                        <img class="slide "
+                          src="/assets/images/com/a-friendly-hand/process-1.jpeg"
+                          alt="Image 1" />
+                        <img class="slide "
+                          src="/assets/images/com/a-friendly-hand/process-2.jpeg"
+                          alt="Image 2" />
+                        <img class="slide "
+                          src="/assets/images/com/a-friendly-hand/process-3.jpeg"
+                          alt="Image 3" />
+                        <img class="slide "
+                          src="/assets/images2/Week4/a-friendly-hand.jpeg"
+                          alt="Image 4" />
                       </div>
+                      <button class="slider-button left">‹</button>
+                      <button class="slider-button right">›</button>
                     </div>
+                    <figcaption>
+                      <p><b>Process Images </b> - Grouped into: (1) Material
+                        &
+                        Form, (2) Sensor & Actuator, (3) Imagination &
+                        Symbolism — visualised as a flow chart.</p>
+                    </figcaption>
+                  </ul>
+                </div>
 
-                    <div class="row type__content">
-                      <div class="column">
-                        <video class="lazy img__cover-50 cuteborder"
-                          autoplay
-                          muted
-                          playsinline loop controls preload="none"
-                          width="100%">
-                          <source
-                            data-src="/assets/images/com/a-friendly-hand/algorthimic-circles-short-ezgif.com-crop-video.mp4"
-                            type="video/mp4" />
-                        </video>
-                        <figcaption>
-                          <p><b>Friendly Hand v.1 </b> - reacting to
-                            Algorithmic Circles
-                          </p>
-                        </figcaption>
-                      </div>
-                      <div class="column">
-                        <video class="lazy img__cover-50 cuteborder"
-                          autoplay
-                          muted
-                          playsinline loop controls preload="none"
-                          width="100%">
-                          <source
-                            data-src="/assets/images/com/a-friendly-hand/algorithmic-circles-screen.mp4"
-                            type="video/mp4" />
-                        </video>
-                        <figcaption>
-                          <p><b>Algorithmic Circles Animation </b> - played on
-                            screen
-                          </p>
-                        </figcaption>
-                      </div>
-                    </div>
+              </div>
+            </section>
 
-                    <div class="row type__content">
-                      <div class="column">
-                        <video class="lazy img__cover-50 cuteborder"
-                          autoplay
-                          muted
-                          playsinline loop controls preload="none"
-                          width="100%">
-                          <source
-                            data-src="/assets/images/com/a-friendly-hand/shifting-gradient-short-ezgif.com-crop-video.mp4"
-                            type="video/mp4" />
-                        </video>
-                        <figcaption>
-                          <p><b>A Friendly Hand v.1 </b> - reacting to
-                            Algorithmic Circles
-                          </p>
-                        </figcaption>
-                      </div>
-                      <div class="column">
+            <section id="semester-2" style="border-top: 1px solid black;"
+              class=" width__l margin__auto padding__y-xl">
+              <div class="row type__content">
+                <div class="column">
+                  <h1>Semester 2, Outcomes</h1>
+                  <p class="p__size-l">
+                    <em>Building on Prototype ⑥ from Semester 1</em>,
+                    this phase focuses on refining the work into situated
+                    outcomes—sketching everyday interactions, staging
+                    performances, and translating research into a
+                    publication. Each outcome explores how <em>A Friendly
+                      Hand</em> might exist and be understood beyond the
+                    prototype.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <section id="speculative-sketches"
+              style="border-top: 1px solid black;">
+              <div class="width__l margin__auto padding__top-l">
+                <div class="row type__content">
+                  <div class="column">
+                    <h2>Outcome ① <br> <i>Speculative Sketches</i></h2>
+
+                    <ul class="gif-list">
+                      <li><img src="/assets/images/general/hand.gif"
+                          alt="Hand"></li>
+                    </ul>
+
+                    <p class="p__size-s">
+                      <p class="p__size-s">
+                        An exploratory phase where I imagined how <em>A
+                          Friendly Hand</em> might stage a speculative
+                        interaction with a tree. This involved experimenting
+                        with materials, creating visual sketches while
+                        navigating personal philosophies in
+                        design—ultimately shaping a vision of what the
+                        prototype could communicate in an everyday setting.
+                      </p>
+
+                    </p>
+                  </div>
+
+                  <div class="column">
+                    <ul>
+                      <li>
                         <img
-                          src="/assets/images/com/a-friendly-hand/gradient.jpeg"
-                          alt="gradient" class="zoom cuteborder">
+                          src="/assets/images2/Week2/curating.jpeg"
+                          alt="tree"
+                          class="zoom blend-into-bg cuteborder">
                         <figcaption>
-                          <p><b>Gradient Image </b> - shown on screen
-                          </p>
+                          <p><b>Exploration Flowchart</b> Week 2, Semester
+                            Two</p>
                         </figcaption>
-                      </div>
-                    </div>
+                      </li>
+                    </ul>
+                  </div>
 
-                    <div class="row type__content">
+                  <div class="row">
+
+                    <div class="column">
                       <ul>
                         <div class="slider-container cuteborder">
                           <div class="slider-track">
                             <img class="slide "
-                              src="/assets/images/com/a-friendly-hand/process-1.jpeg"
+                              src="/assets/images2/Week2/body-of-friendly-hands-6.jpeg"
                               alt="Image 1" />
-                            <img class="slide "
-                              src="/assets/images/com/a-friendly-hand/process-2.jpeg"
+                            <img class="slide"
+                              src="/assets/images/com/speculative-sketches/farmers-glove.jpg"
                               alt="Image 2" />
-                            <img class="slide "
-                              src="/assets/images/com/a-friendly-hand/process-3.jpeg"
+                            <img class="slide"
+                              src="/assets/images2/Week3/body-of-friendly-hands-22.jpeg"
                               alt="Image 3" />
-                            <img class="slide "
-                              src="/assets/images2/Week4/a-friendly-hand.jpeg"
-                              alt="Image 4" />
+                            <img class="slide"
+                              src="/assets/images/com/speculative-sketches/brown-paper.jpg"
+                              alt="Image 3" />
+                            <img class="slide"
+                              src="/assets/images/com/speculative-sketches/small-hands.jpg"
+                              alt="Image 3" />
+                            <img class="slide"
+                              src="/assets/images/com/speculative-sketches/final-hands.jpg"
+                              alt="Image 3" />
                           </div>
                           <button class="slider-button left">‹</button>
                           <button class="slider-button right">›</button>
                         </div>
                         <figcaption>
-                          <p><b>Process Images </b> - Grouped into: (1) Material
-                            &
-                            Form, (2) Sensor & Actuator, (3) Imagination &
-                            Symbolism — visualised as a flow chart.</p>
+                          <p><b>Form & Material Exploration</b> —
+                            over Sem. One to Two
+                          </p>
                         </figcaption>
                       </ul>
                     </div>
 
+                    <div class="column">
+                      <img
+                        src="/assets/images2/Week5/construction-plan.jpeg"
+                        alt="construction plan"
+                        class="zoom cuteborder">
+                      <figcaption>
+                        <p><b>Construction Plan</b> Week 5, Semester Two</p>
+                      </figcaption>
+                    </div>
                   </div>
-                  <footer>
-                    <div class="scroll__top"><a
-                        href="#semester-1">↑</a></div>
-                  </footer>
-                </div>
-              </article>
 
+                  <div class="column">
+                    <img
+                      src="/assets/images/com/speculative-sketches/dance-forest-dance.jpg"
+                      alt="Dance, Forest, Dance;"
+                      class="zoom cuteborder">
+                    <figcaption>
+                      <p><b>The Vision</b> Week 5, Semester Two</p>
+                    </figcaption>
+                  </div>
+
+                  <!-- <div class="column">
+                        <ul>
+                          <div class="slider-container cuteborder">
+                            <div class="slider-track">
+                              <img class="slide "
+                                src="/assets/images2/Week2/visualisation-1.jpeg"
+                                alt="Image 1" />
+                              <img class="slide "
+                                src="/assets/images2/Week2/visualisation-2.jpeg"
+                                alt="Image 1" />
+                              <img class="slide "
+                                src="/assets/images2/Week3/1b-hugging-a-tree.jpeg"
+                                alt="Image 1" />
+                              <img class="slide "
+                                src="/assets/images2/Week3/1d-tiny-tree-hands2.jpeg"
+                                alt="Image 1" />
+                              <img class="slide "
+                                src="/assets/images2/Week5/dance-forest-dance.jpeg"
+                                alt="dance-forest-dance">
+                            </div>
+                            <button class="slider-button left">‹</button>
+                            <button class="slider-button right">›</button>
+                          </div>
+                          <figcaption>
+                            <p><b>Speculative Sketches</b> —
+                              Week 2 to 5, Semester Two
+                            </p>
+                          </figcaption>
+                        </ul>
+                      </div> -->
+                </div>
+              </div>
             </section>
 
-          </main>
+            <section id="a-friendly-hand+"
+              style="border-top: 1px solid black;">
+              <div class="width__l margin__auto padding__top-l">
+                <div class="row type__content">
+                  <div class="column">
+                    <h2>Outcome ② <br> <i>A Friendly Hand+</i></h2>
 
-          <!-- footer, page ends here.-->
+                    <ul class="gif-list">
+                      <li><img
+                          src="/assets/images/general/a-friendly-hand.gif"
+                          alt="Laptop"></li>
+                    </ul>
 
-          <div id="lightbox"></div>
-          <script src="../../js/main.js"></script>
-        </body>
+                    <p class="p__size-s">
+                      <p class="p__size-s">
+                        Through iterative prototyping,<em> A Friendly
+                          Hand</em>
+                        made tiny improvements into a screen-based
+                        interface. Viewers
+                        engage with a tablet that changes the animated
+                        visual input, triggering different movement
+                        responses in the hand via light-sensing. Three
+                        interaction modes—algorithmic circles, shifting
+                        gradients, and static pulse—offer a range of
+                        poetic, playful, and erratic gestures.
+                      </p>
 
-      </html>
+                    </p>
+                  </div>
+
+                  <div class="column">
+                    <ul>
+                      <div class="slider-container cuteborder">
+                        <div class="slider-track">
+                          <img class="slide blend-into-bg"
+                            src="/assets/images/com/a-friendly-hand+/a-friendly-hand-second.jpeg"
+                            alt="Iteration 2" />
+                          <img class="slide blend-into-bg"
+                            src="/assets/images2/Week10/final-one.jpeg"
+                            alt="Iteration 3" />
+                          <img class="slide blend-into-bg"
+                            src="/assets/images/com/a-friendly-hand+/a-friendly-hand+.jpeg"
+                            alt="Final Iteration" />
+                        </div>
+                        <button class="slider-button left">‹</button>
+                        <button class="slider-button right">›</button>
+                      </div>
+                      <figcaption>
+                        <p><b>A Friendly Hand V.1 → V.3</b> —
+                          Over Sem One → Sem Two
+                        </p>
+                      </figcaption>
+
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="row type__content">
+
+                  <div class="column sketch-container">
+                    <iframe
+                      src="https://editor.p5js.org/zayrerboy/full/NCHVbxG5C"
+                      width="100%"
+                      height="600"
+                      class="cuteborder">
+                    </iframe>
+
+                    <!-- Overlayed Labels -->
+                    <div class="label-overlay">
+                      <div class="label-row">
+                        <span class="label-cell">Expression</span>
+                        <span class="label-cell">Mode 1</span>
+                        <span class="label-cell">Mode 2</span>
+                        <span class="label-cell">Mode 3</span>
+                      </div>
+                      <div class="label-row">
+                        <span class="label-cell">Speed</span>
+                        <span class="label-cell"></span>
+                        <span class="label-cell"></span>
+                        <span class="label-cell"></span>
+                      </div>
+                      <div class="label-row">
+                        <span class="label-cell">Size</span>
+                        <span class="label-cell"></span>
+                        <span class="label-cell"></span>
+                        <span class="label-cell"></span>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <footer>
+                <div class="scroll__top"><a
+                    href="#semester-1">↑</a></div>
+              </footer>
+
+            </section>
+          </div>
+
+        </article>
+
+      </section>
+
+    </main>
+
+    <!-- footer, page ends here.-->
+
+    <div id="lightbox"></div>
+    <script src="../../js/main.js"></script>
+  </body>
+
+</html>
