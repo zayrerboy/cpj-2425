@@ -16,34 +16,42 @@
     <!-- Load StyleSheets -->
     <link rel="stylesheet" type="text/css" href="../../css/styles.css" />
     <style>
-      article {
-        display: flex;
-      }
-  
-      .left-panel {
-        width: 25%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        overflow-y: scroll;
-        /* position: relative; */
-        padding: 2%;
-        border-right: 1px solid black;
-      }
-  
-      .right-panel {
-        width: 75%;
-        height: 100vh;
-        overflow-y: scroll;
-        padding: 2%;
-      }
+  article {
+    display: flex;
+  }
 
-      @media only screen and (max-width: 768px) {
-        .left-panel {
-          display:none;
-        }
-      }
-    </style>
+  .left-panel {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    padding: 2%;
+    border-right: 1px solid black;
+  }
+
+  .right-panel {
+    width: 75%;
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 2%;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .left-panel {
+      display: none;
+    }
+
+    .right-panel {
+      width: 100%;
+    }
+
+    article {
+      flex-direction: column;
+    }
+  }
+</style>
+
   </head>
 
   <body>
@@ -100,8 +108,10 @@
                   <ul>
                     <li><a href="#slowly-becoming">① A Friendly Hand Slowly
                         Becoming</a></li>
-                    <li><a href="#a-friendly-hand+">② A Friendly Hand Interface</a></li>
-                    <li><a href="#field-trip">③ Field Trip: A Friendly Hand in the Wild</a></li>
+                    <li><a href="#a-friendly-hand+">② A Friendly Hand
+                        Interface</a></li>
+                    <li><a href="#field-trip">③ Field Trip: A Friendly Hand in
+                        the Wild</a></li>
                     <li><a href="#a-friendly-hand-zine">④ A Friendly Hand
                         Zine</a></li>
                     <li><a href="#notes-from-a-friendly-hand">⑤ Notes from A
