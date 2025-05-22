@@ -1,342 +1,668 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <title>Creative Process Journal, 24-25.</title>
+  <head>
+    <title>Creative Process Journal, 24-25.</title>
 
-  <!-- Meta information, for machines to read, SEO -->
-  <meta charset="utf-8" />
-  <meta name="description" content="" />
-  <meta name="Author" content="" />
-  <meta name="keywords" content="" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.png?v=2"/>
+    <!-- Meta information, for machines to read, SEO -->
+    <meta charset="utf-8" />
+    <meta name="description" content />
+    <meta name="Author" content />
+    <meta name="keywords" content />
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png?v=2" />
 
-  <!-- Load StyleSheets -->
-  <link rel="stylesheet" type="text/css" href="../../css/styles.css" />
-</head>
+    <!-- Load StyleSheets -->
+    <link rel="stylesheet" type="text/css" href="../../css/styles.css" />
+  </head>
 
-<body>
+  <body>
 
-  <!-- header and footer section, the menu. -->
-  <header>
-    <nav class="main__nav-bar">
-      <ul class="main__nav-title">
-        <li><a href="/">Dreaming of an Interspecies Sensor</a></li>
-        <li class="mobile__hide"><a href="/about">Zarer Lim</a></li>
-      </ul>
-      <ul class="main__nav-list">
-        <li class="main__nav-item"><a href="/">Overview</a></li>
-        <li class="main__nav-item"><a href="/com">Catalogue of Making</a></li>
-        <li class="main__nav-item"><a href="/repository">Repository</a></li>
-        <li class="main__nav-item"><a href="/about">About</a></li>
-        <li class="main__nav-about">
-          <p>
-            A design communication graduation project.
-          </p>
-        </li>
-      </ul>
-      <div class="main__nav-ham">
-        <span class="main__nav-ham-bar"></span>
-        <span class="main__nav-ham-bar"></span>
-      </div>
-    </nav>
-  </header>
-
-  <!-- main section, all your content goes here. -->
-  <main>
-
-    <article>
-
-      <section id="full-size-image">
-        <div class="row">
-          <img src="/assets/images/Week-11/original_36f5e498a290c37460e0037471e41604.jpeg" class="img__cover-50"
-            style="margin-top: 2px;" />
+    <!-- header and footer section, the menu. -->
+    <header>
+      <nav class="main__nav-bar">
+        <ul class="main__nav-title">
+          <li><a href="/">Dreaming of an Interspecies Sensor</a></li>
+          <li class="mobile__hide"><a href="/about">Zarer Lim</a></li>
+        </ul>
+        <ul class="main__nav-list">
+          <li class="main__nav-item"><a href="/">Overview</a></li>
+          <li class="main__nav-item"><a href="/com">Catalogue of Making</a></li>
+          <li class="main__nav-item"><a href="/repository">Repository</a></li>
+          <li class="main__nav-item"><a href="/about">About</a></li>
+          <li class="main__nav-about">
+            <p>
+              A design communication graduation project.
+            </p>
+          </li>
+        </ul>
+        <div class="main__nav-ham">
+          <span class="main__nav-ham-bar"></span>
+          <span class="main__nav-ham-bar"></span>
         </div>
-        <figcaption>
-          <p><b>Notes on Muggeridge</b> White marker on printed paper</p>
-        </figcaption>
-      </section>
+      </nav>
+    </header>
 
-      <section id="example-1">
-        <div class="width__s margin__auto padding__y-l">
-          <div class="row type__content">
-            <ul>
-              <li>
-                <h2><em>① Seeing Life</em> </h2>
-              </li>
-            </ul>
+    <!-- main section, all your content goes here. -->
+    <main>
 
-            <ul>
-              <li>
-                <p>
-                  Reflecting on Week 10's drawing pad, I wasn’t satisfied with just using a mouse and my hands to draw.
-                  I was curious to try drawing with body gestures. So, then I tried combining the drawing pad with
-                  Posenet
-                  - a
-                  Google learning framework that detects key body points in human figures. This one is with eyes.
+      <article>
 
-                </p>
-              </li>
-
-              <li>
-                <video class="lazy img__cover-50" autoplay muted playsinline loop controls preload="none" width="100%"
-                  poster="">
-                  <source data-src="/assets/images/week-10/posenet-drawing-pad-eye.mp4" type="video/mp4" />
-                </video>
-                <figcaption>
-                  <p><b>Game of life drawing pad with eyes</b></p>
-                </figcaption>
-              </li>
-            </ul>
-
-            <ul>
-              <li>
-                <p>
-                  Then I tried it with my right hand.
-
-                </p>
-              </li>
-
-              <li>
-                <video class="lazy img__cover-50" autoplay muted playsinline loop controls preload="none" width="100%"
-                  poster="">
-                  <source data-src="/assets/images/week-10/posenet-drawing-pad-right-hand.mp4" type="video/mp4" />
-                </video>
-                <figcaption>
-                  <p><b>Game of life drawing pad with right hand</b></p>
-                </figcaption>
-              </li>
-            </ul>
-
-
-            <ul>
-              <li>
-                <p>
-                  I tried tricking the software to detect my a fake hand. It did not work..
-
-                </p>
-              </li>
-
-              <li><img src="/assets/images/Week-11/fakehand-1.jpeg" class="zoom" />
-                <figcaption>
-                  <p><b>Right wrist detection </b> – success </p>
-                </figcaption>
-              </li>
-            </ul>
-
-            <ul>
-              <li><img src="/assets/images/Week-11/fakehand-2.jpeg" class="zoom" />
-                <figcaption>
-                  <p><b>Right wrist detection with fake hand</b> – success-ish? </p>
-                </figcaption>
-              </li>
-              <li><img src="/assets/images/Week-11/fakehand-3.jpeg" class="zoom" />
-                <figcaption>
-                  <p><b>Right wrist detection with just fake hand </b> – failed </p>
-                </figcaption>
-              </li>
-            </ul>
-
-            <ul>
-              <li><img src="/assets/images/Week-11/body-visual-expressions.jpeg" class="zoom" />
-                <figcaption>
-                  <p><b>Some fun and lively screen captures</b> </p>
-                </figcaption>
-              </li>
-            </ul>
-            <ul>
-
-              <li>
-                <p>
-                  Then I tried it with nose.
-
-                </p>
-              </li>
-            </ul>
-
-            <ul>
-              <li><img src="/assets/images/Week-11/junliang-1.jpeg" class="zoom" />
-                <figcaption>
-                  <p><b>User:Junliang, 25</b> 1</p>
-                </figcaption>
-              </li>
-              <li><img src="/assets/images/Week-11/junliang-2.jpeg" class="zoom" />
-                <figcaption>
-                  <p><b>User:Junliang, 25</b> 2</p>
-                </figcaption>
-              </li>
-              <li><img src="/assets/images/Week-11/junliang-3.jpeg" class="zoom" />
-                <figcaption>
-                  <p><b>User:Junliang, 25</b> 3</p>
-                </figcaption>
-              </li>
-              <li><img src="/assets/images/Week-11/alda-1.jpeg" class="zoom" />
-                <figcaption>
-                  <p><b>User:Alda, 24</b> 1</p>
-                </figcaption>
-              </li>
-
-              <li><img src="/assets/images/Week-11/alda-2.jpeg" class="zoom" />
-                <figcaption>
-                  <p><b>User:Alda, 24</b> 2</p>
-                </figcaption>
-              </li>
-              <li><img src="/assets/images/Week-11/alda-3.jpeg" class="zoom" />
-                <figcaption>
-                  <p><b>User:Alda, 24</b> 3</p>
-                </figcaption>
-              </li>
-
-            </ul>
-
-            <ul>
-
-
-              <li><img src="/assets/images/Week-11/yvis-1.jpeg" class="zoom" />
-                <figcaption>
-                  <p><b>User:Yvis, 16</b> 1</p>
-                </figcaption>
-              </li>
-              <li><img src="/assets/images/Week-11/yvis-2.jpeg" class="zoom" />
-                <figcaption>
-                  <p><b>User:Yvis, 16</b> 2</p>
-                </figcaption>
-              </li>
-              <li><img src="/assets/images/Week-11/yvis-3.jpeg" class="zoom" />
-                <figcaption>
-                  <p><b>User:Yvis, 16</b> 3</p>
-                </figcaption>
-              </li>
-            </ul>
-
-
-
-            <ul>
-              <li><img src="/assets/images/Week-11/evolution.jpeg" class="zoom" />
-                <figcaption>
-                  <p><b>Evolution</b> 24 Oct 2024 </p>
-                </figcaption>
-              </li>
-
-            </ul>
-
+        <section id="full-size-image">
+          <div class="row">
+            <img src="/assets/images/week-10/cover-photo2.jpg"
+              class="img__cover-50"
+              style="margin-top: 2px;" />
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="example-1">
-        <div class="width__s margin__auto padding__y-l">
-          <div class="row type__content">
-            <div class="column">
-              <h2> <em> ③ Incorporating a second sensor into fake hand</em> 🔎</h2>
-              <p>
-                Next, for my physical making. I tried incorporating LDR as an input for my servo-motorised hand.
-
-              </p>
-            </div>
-
-            <uL>
-              <li><img src="/assets/images/Week-11/arduino-sketch.jpeg" class="zoom" />
-                <figcaption>
-                  <p><b>Arduino Sketch for LDR as input and Servo Motor as output </b> 24 Oct 2024</p>
-                </figcaption>
-
-              </li>
-              <li><img src="/assets/images/Week-11/setup1.jpeg" class="zoom" />
-                <figcaption>
-                  <p><b>Set up</b> 24 Oct 2024</p>
-                </figcaption>
-              </li>
-
-
-            </uL>
-
-            <ul>
-              <li>
-                <video class="lazy img__cover-50" autoplay muted playsinline loop controls preload="none" width="100%"
-                  poster="">
-                  <source data-src="/assets/images/week-11/ldr-fakehand.mp4" type="video/mp4" />
-                </video>
-                <figcaption>
-                  <p><b>Test</b> 24 Oct 2024</p>
-                </figcaption>
-              </li>
-
-            </ul>
-
-            <ul>
-              <li>
-                <video class="lazy img__cover-50" autoplay muted playsinline loop controls preload="none" width="50%"
-                  poster="">
-                  <source data-src="/assets/images/week-11/ldr-fakehand3.mp4" type="video/mp4" />
-                </video>
-                <figcaption>
-                  <p><b>Test</b> 24 Oct 2024</p>
-                </figcaption>
-              </li>
-
-            </ul>
-
-
-
-
-
-
-
-
-
-          </div>
-        </div>
-      </section>
-
-
-
-
-
-
-
-
-      <section id="example-2">
-        <div class="color__bg-7 color__fg-2">
-          <div class="width__s margin__auto padding__y-l">
-            <div class="row type__content">
+        <section id="example-1" style="border-top: 1px solid black;">
+          <div class="width__s margin__auto padding__y-l"
+            style="border-left: 1px solid black; border-right: 1px solid black;">
+            <div class="row type__content"
+              style="border-bottom: 1px solid black ;">
               <div class="column">
-                <h1>Reflection 😮</h1>
-                <p>
-                  This week has been a lot of exploring, making and pushing craft in a fun way. I enjoy making these but
-                  I am finding it hard to know my objective right now. It follows a stream of curiousity but I am not
-                  sure how this relates to a single reserach at the moment or if I am even critiquing anything right now
-                  HAHA.
-
-
+                <h1> Week 11: Prototyping Root Watching
+                </h1>
+                <p class="p__size-l">
+                  This week I put my hand to rest and wanted to venture into
+                  different technology-enabled interactions. I asked myself what
+                  if trees could draw with us? and created a few p5.js sketches.
                 </p>
               </div>
+              <div
+                style="display: flex; justify-content: space-between; overflow: hidden;">
+                <img src="/assets/images/general/walking.gif"
+                  style="width: 5%; height: auto; mix-blend-mode: multiply;"
+                  alt="Walking Animation">
+                <img src="/assets/images/general/walking.gif"
+                  style="width: 5%; height: auto; mix-blend-mode: multiply;"
+                  alt="Walking Animation">
+                <img src="/assets/images/general/walking.gif"
+                  style="width: 5%; height: auto; mix-blend-mode: multiply;"
+                  alt="Walking Animation">
+                <img src="/assets/images/general/walking.gif"
+                  style="width: 5%; height: auto; mix-blend-mode: multiply;"
+                  alt="Walking Animation">
+                <img src="/assets/images/general/walking.gif"
+                  style="width: 5%; height: auto; mix-blend-mode: multiply;"
+                  alt="Walking Animation">
+                <img src="/assets/images/general/walking.gif"
+                  style="width: 5%; height: auto; mix-blend-mode: multiply;"
+                  alt="Walking Animation">
+                <img src="/assets/images/general/walking.gif"
+                  style="width: 5%; height: auto; mix-blend-mode: multiply;"
+                  alt="Walking Animation">
+                <img src="/assets/images/general/walking.gif"
+                  style="width: 5%; height: auto; mix-blend-mode: multiply;"
+                  alt="Walking Animation">
+                <img src="/assets/images/general/walking.gif"
+                  style="width: 5%; height: auto; mix-blend-mode: multiply;"
+                  alt="Walking Animation">
+                <img src="/assets/images/general/walking.gif"
+                  style="width: 5%; height: auto; mix-blend-mode: multiply;"
+                  alt="Walking Animation">
+                <img src="/assets/images/general/walking.gif"
+                  style="width: 5%; height: auto; mix-blend-mode: multiply;"
+                  alt="Walking Animation">
+              </div>
+              <br>
+            </div>
+
+            <div class="row type__content">
+              <div class="column">
+                <h2> <em> ① Otherwordly Expressions</em> </h2>
+
+                <p>
+                  Reflecting on Week 7's attempt at an online
+                  'hybrid generator', I had a burning passion to redeem
+                  myself
+                  by reinventing the 'Tracing roots' activity to live.</p>
+
+              </div>
+
+              <ul>
+                <li>
+                  <p>
+                    So, I first went on to P5js to look for a drawing pad
+                    JS code which led me to user;fffiloni. After
+                    testing his basic code, I realised I needed a ‘undo’
+                    button. So, that began my journey utilising
+                    ChatGPT 4.0 to assist my vision.
+
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Through multiple iterations asking Chat questions like
+                    “how can i add this code into a HTML website?”
+                    and “can i change the background to an image
+                    instead?”, I was able to create a website where users
+                    can
+                    draw over an background image. Disclaimer: This was
+                    also only possible with basic HTML and p5JS
+                    lessons that I received at LASALLE College of the Arts
+                    for over 6 months, seperately.
+                  </p>
+                </li>
+              </ul>
+
+              <ul>
+                <li><img src="/assets/images/week-10/drawing-pad.jpeg"
+                    class="zoom cuteborder" />
+                  <figcaption>
+                    <p><b>Original Code from P5js user;fffiloni – </b><a
+                        href="https://editor.p5js.org/fffiloni/sketches/Mv2chZiwD"
+                        target="_blank"> link</a> </p>
+                  </figcaption>
+                </li>
+                <li><img src="/assets/images/week-10/chat1.jpeg"
+                    class="zoom cuteborder" />
+                  <figcaption>
+                    <p><b>Chat first question to
+                        “Add undo button"</b>– zoomed</p>
+                  </figcaption>
+                </li>
+                <li><img src="/assets/images/week-10/chat2.jpeg"
+                    class="zoom cuteborder" />
+                  <figcaption>
+                    <p><b>Qustion: “Can I change the background to an
+                        image instead?” </b>- referring to the canvas of
+                      the
+                      drawing pad </p>
+                  </figcaption>
+                </li>
+                <li><img
+                    src="/assets/images/week-10/root-watching-prototype1.jpeg"
+                    class="zoom cuteborder" />
+                  <figcaption>
+                    <p><b>First few iterations of the website</b></p>
+                  </figcaption>
+                </li>
+              </ul>
+
+              <ul>
+                <li>
+                  <p>
+                    The website went through an initial round of
+                    user-testing to check for the performance. The drawing
+                    pad operated smoothly as expected however as I was
+                    reviewing the outcomes, I was curious to see users’
+                    creations without the background image.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    So, I asked chatgpt to assist me in adjusting the code
+                    of the ‘save’ button such that it only captures
+                    users’ drawing. I have a few reasons for that
+                    decision. Firstly, I wanted users’ to see, and
+                    possibly
+                    be surprised by, their creations to encourage a sense
+                    of agency over their expression online.
+                  </p>
+                </li>
+              </ul>
+
+              <ul>
+                <li><img src="/assets/images/week-10/user-testing.jpeg"
+                    class="zoom cuteborder" />
+                  <figcaption>
+                    <p><b>User-testing</b>– Keshi, 20, Design Student</p>
+                  </figcaption>
+                </li>
+                <li><img src="/assets/images/week-10/myDrawing-2.jpg"
+                    class="zoom cuteborder" />
+                  <figcaption>
+                    <p><b>SUser-testing Outcome </b>– jpeg file</p>
+                  </figcaption>
+                </li>
+                <li><img src="/assets/images/week-10/chat3.jpeg"
+                    class="zoom cuteborder" />
+                  <figcaption>
+                    <p><b>Asking Chat
+                        'How to allow users to save their drawings without the background image'.
+                      </b><a
+                        href="https://chatgpt.com/share/671219da-1468-800d-8c40-b51982a1e05a"
+                        target="_blank"> – link to
+                        view chat </a></p>
+                  </figcaption>
+                </li>
+
+              </ul>
+
+              <ul>
+                <li>
+                  <p>
+                    Next, I decided on an aesthetic that didn’t look too
+                    serious. I kept the styling (CSS) simple to
+                    reflect the attitudes of a ‘cozy web’. Cozy web refers
+                    to an intimate, small-scale internet experience
+                    where users connect in close-knit, personalised online
+                    spaces. Platforms like Tumblr and neocities
+                    that priortises fostering community and warmth.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    – in contrast to the vast and impersonal mainstream
+                    platforms. One of the key proponents of this
+                    concept is Laurel Schwulst, who wrote an influential
+                    essay titled "My Website is a Living Thing" in
+                    2019.
+
+                  </p>
+                </li>
+              </ul>
+
+              <ul>
+                <li><img
+                    src="/assets/images/week-10/root-watching-prototype2.jpeg"
+                    class="zoom cuteborder" />
+                  <figcaption>
+                    <p><b>Root Watching </b><a
+                        href="https://chatgpt.com/share/671219da-1468-800d-8c40-b51982a1e05a"
+                        target="_blank"> – link to try </a></p>
+                  </figcaption>
+                </li>
+              </ul>
+
+              <ul>
+                <li>
+                  <p>
+                    The user interface is kept simple. I avoided
+                    explaining too much about my objective of fostering
+                    relationship between humans and nature. Rather, I
+                    chose to encourage users to imagine the otherwordly
+                    scenes.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    This goal aligns with Morton’s “Ecology without
+                    Nature” where he argues that artists, or anyone who
+                    imagines our environment, one should consider how it’s
+                    reflects human acitivities. The act of users’
+                    simply imgaining life forms that are out of the norm
+                    contributes to the bridging of the nature and
+                    culture divide.
+
+                  </p>
+                </li>
+              </ul>
+
+              <ul>
+                <li><img src="/assets/images/week-10/drawing-pad2.jpeg"
+                    class="zoom cuteborder" />
+                  <figcaption>
+                    <p><b>Step1: Draw </b></p>
+                  </figcaption>
+                </li>
+                <li><img
+                    src="/assets/images/week-10/root-watching-prototype3.jpeg"
+                    class="zoom cuteborder" />
+                  <figcaption>
+                    <p><b>Step2: Save </b></p>
+                  </figcaption>
+                </li>
+                <li><img src="/assets/images/week-10/myDrawing-3.jpg"
+                    class="zoom cuteborder" />
+                  <figcaption>
+                    <p><b>Step3: Be surprised at your creation </b></p>
+                  </figcaption>
+                </li>
+              </ul>
+
+              <ul>
+                Another component to the UX is linking an Are.na channel
+                for users to upload their creations. This was
+                inspired by designer, Elliott Cost, where he collected
+                park videos using are.na channel for his website
+                called One Minute Park. The component of allowing users to
+                upload their
+                creations aim to foster a sense of community where they
+                can express themselves and interact with other
+                users.
+                <figcaption>
+                  <p><b>One Minute Park</b> <a
+                      href="https://oneminutepark.tv/" target="_blank"> by
+                      Elliott Cost </a></p>
+                </figcaption>
+              </ul>
+
+              <ul>
+                <li><img src="/assets/images/week-10/root-creatures.jpeg"
+                    class="zoom cuteborder" />
+                  <figcaption>
+                    <p><b>'Root Creatures' </b><a
+                        href="https://www.are.na/zarer-lim/root-creatures"
+                        target="_blank">–
+                        Link to Are.na board</a></p>
+                  </figcaption>
+                </li>
+              </ul>
+
+              <ul>
+                Refletcion:<br>
+                Reflecting on the user experience, the idea of
+                drawing/tracing as an expression between the roots and the
+                user
+                felt like a friendship that could need more 'life'.
+              </ul>
+
             </div>
           </div>
+        </section>
 
+        <section id="example-1" style="border-top: 1px solid black;">
+          <div class="width__s margin__auto padding__y-l"
+            style="border-left: 1px solid black; border-right: 1px solid black;">
+            <div class="row type__content">
+              <div class="column">
+                <h2> <em> ② An experimentation of bringing more life to
+                    expressions on the web</em> 🔎</h2>
 
+              </div>
 
-      </section>
+              <ul>
+                <p>
+                  Reflecting on users' outcomes, I wanted to experiment
+                  with different ways to incorporate movement into
+                  the
+                  creatures. Using p5js, I experimented different ways to
+                  incorporate animation into the
+                  creator’s drawings such as, Bouncing Images and
+                  Image-to-Points, which then led me to learning about
+                  Conway’s Game of Life. </p>
+              </ul>
 
+              <ul>
+                <li>
+                  <p>
+                    Starting off, I uploaded the results onto a seperate
+                    page called dreamscape creatures. Where I
+                    introduced an animation script that allows these
+                    drawings to float about.
+                  </p>
+                </li>
+                <li>
+                  <video class="lazy img__cover-50 cuteborder" autoplay muted
+                    playsinline loop controls preload="none" width="100%"
+                    poster>
+                    <source
+                      data-src="/assets/images/week-10/creatures-animated-v1.mp4"
+                      type="video/mp4" />
+                  </video>
+                  <figcaption>
+                    <p><b>Bouncing Images</b></p>
+                  </figcaption>
+                </li>
+              </ul>
 
-    </article>
-  </main>
+              <ul>
+                <li>
+                  <p>
+                    Next, I was curious to see them in 3 dimension. So, I
+                    brought it to p5js to explore image to point
+                    animation. Each version pushes the concept of
+                    “dimension” altering the original state.
+                  </p>
+                </li>
+                <li>
+                  <video class="lazy img__cover-50 cuteborder" autoplay muted
+                    playsinline loop controls preload="none" width="100%"
+                    poster>
+                    <source
+                      data-src="/assets/images/week-10/image-to-pointsv1.mp4"
+                      type="video/mp4" />
+                  </video>
+                  <figcaption>
+                    <p><b>First Dimension</b> <a
+                        href="https://editor.p5js.org/zayrerboy/sketches/4qwOe8vOE"
+                        target="_blank">–
+                        Link to P5js</a></p>
+                  </figcaption>
+                </li>
+              </ul>
 
-  <!-- footer, page ends here.-->
-  <footer>
-    <div class="prev__next">
-      <ul>
-        <li><a href="./week-10.html" id="go-prev">prev</a></li>
-        <li><a href="../../index.html">overview</a></li>
-        <li><a href="./week-12.html" id="go-next">next</a></li>
-      </ul>
-    </div>
-    <div class="scroll__top"><a href="javascript:scrollToTop();">↑</a></div>
-  </footer>
+              <ul>
+                <li>
+                  <video class="lazy img__cover-50 cuteborder" autoplay muted
+                    playsinline loop controls preload="none" width="100%"
+                    poster>
+                    <source
+                      data-src="/assets/images/week-10/image-to-pointsv2.mp4"
+                      type="video/mp4" />
+                  </video>
+                  <figcaption>
+                    <p><b>Second Dimension</b> <a
+                        href="https://editor.p5js.org/zayrerboy/sketches/4JSPnI7Zr"
+                        target="_blank">–
+                        Link to P5js</a></p>
+                  </figcaption>
+                </li>
+                <li>
+                  <video class="lazy img__cover-50 cuteborder" autoplay muted
+                    playsinline loop controls preload="none" width="100%"
+                    poster>
+                    <source
+                      data-src="/assets/images/week-10/image-to-pointsv3.mp4"
+                      type="video/mp4" />
+                  </video>
+                  <figcaption>
+                    <p><b>Third Dimension</b> <a
+                        href="https://editor.p5js.org/zayrerboy/sketches/yKedTYBmA"
+                        target="_blank">–
+                        Link to P5js</a></p>
+                  </figcaption>
+                </li>
+              </ul>
 
-  <div id="lightbox"></div>
-  <script src="../../js/main.js"></script>
-</body>
+              <ul>
+                <li>
+                  <p>
+                    Reflection: <br>
+                    Reflecting on the exercise, I recalled Week 9's
+                    sharing from ‘Feelers Feelers’ where we were
+                    introduced to us their concept of a ‘Greener Screen’.
+                    One of the key theory to for a sustainable web
+                    is
+                    to opitmise and minimise the jpeg files to reduce
+                    energy consumption and cognitive power of the uesrs.
+                  </p>
+                </li>
 
-</html>
+                <li>
+                  <p>
+                    If the goal of this experiment is to build better
+                    intimacy between humans and non-humans through a
+                    website. Can there be a process where no images have
+                    to be uploaded? How can I bring more life to
+                    users while expressing online?
+                  </p>
+                </li>
+
+              </ul>
+
+              <ul>
+                <li><img
+                    src="/assets/images/week-10/cellular-automata.jpeg"
+                    class="zoom cuteborder" />
+                  <figcaption>
+                    <p><b>'I asked Chat how to bring more life to pixels'
+                      </b><a
+                        href="https://www.are.na/zarer-lim/root-creatures"
+                        target="_blank">
+                        – they gave me a cellular-automata code</a></p>
+                  </figcaption>
+                </li>
+                <li><img src="/assets/images/week-10/chat4.jpeg"
+                    class="zoom cuteborder" />
+                  <figcaption>
+                    <p><b>'I asked Chat to incorporate Game of Life to drawing pad'
+                      </b><a
+                        href="https://chatgpt.com/share/6721db6c-bc98-800d-b543-d307b527a6db"
+                        target="_blank">–
+                        Link to Chat</a></p>
+                  </figcaption>
+                </li>
+              </ul>
+
+              <ul>
+                <li>
+                  <video class="lazy img__cover-50 cuteborder" autoplay muted
+                    playsinline loop controls preload="none" width="100%"
+                    poster>
+                    <source
+                      data-src="/assets/images/week-10/game-of-life-drawing-pad.mp4"
+                      type="video/mp4" />
+                  </video>
+                  <figcaption>
+                    <p><b>Game of Life' Drawing pad</b> <a
+                        href="https://editor.p5js.org/zayrerboy/sketches/yKedTYBmA"
+                        target="_blank">–
+                        Link to P5js</a></p>
+                  </figcaption>
+                </li>
+              </ul>
+
+              <ul>
+                <li>
+                  <p>
+                    Cornway’s game of life was quite a discovery.
+                    Originating from the theory of cellular automaton
+                    where math meets tech, the dynamic and evolving
+                    patterns allows users to interact with 'life' made
+                    from
+                    the simple rules of life and death.
+                  </p>
+                </li>
+                <li><img src="/assets/images/week-10/gameoflife.webp"
+                    class="zoom cuteborder" />
+                  <figcaption>
+                    <p><b>John Conway and the Game of Life</b><a
+                        href="https://complexsystemstheory.net/2020/04/13/john-conway-and-the-game-of-life/"
+                        target="_blank">
+                        – The complex system of Cellular automata</a></p>
+                  </figcaption>
+                </li>
+              </ul>
+
+              <ul>
+                <li>
+                  <p>
+                    Sticking to the idea of a drawing pad, could the act
+                    of placing or removing pixels on a grid symbolise
+                    the creation process? and the system of finding
+                    neighbouring cells represent life?
+                  </p>
+                </li>
+                <li>
+                  <video class="lazy img__cover-50 cuteborder" autoplay muted
+                    playsinline loop controls preload="none" width="100%"
+                    poster>
+                    <source
+                      data-src="/assets/images/week-10/drawing-pad-v2.mp4"
+                      type="video/mp4" />
+                  </video>
+                  <figcaption>
+                    <p><b>Buttons to control the activation of
+                        cellular-automata</b> <a
+                        href="https://editor.p5js.org/zayrerboy/sketches/dACgH5FKQ"
+                        target="_blank">–
+                        Link to P5js</a></p>
+                  </figcaption>
+                </li>
+              </ul>
+
+              <ul>
+                <li>
+                  <p>
+                    The idea of a drawing pad / game of life was so
+                    applicable for anything. I tried it over the the image
+                    of the roots and introduced a new rule where the
+                    pixels do not turn postive. The result look like a
+                    bonsai root getting into eaten by pixels HAHAHA.
+                  </p>
+                </li>
+                <li>
+                  <video class="lazy img__cover-50 cuteborder" autoplay muted
+                    playsinline loop controls preload="none" width="100%"
+                    poster>
+                    <source
+                      data-src="/assets/images/week-10/image-fading-ezgif.com-video-cutter.mp4"
+                      type="video/mp4" />
+                  </video>
+                  <figcaption>
+                    <p><b>Buttons to control the activation of
+                        cellular-automata</b> <a
+                        href="https://editor.p5js.org/zayrerboy/sketches/dACgH5FKQ"
+                        target="_blank">–
+                        Link to P5js</a></p>
+                  </figcaption>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </section>
+
+        <section id="example-2">
+              <div class="color__fg-2" style="border-top: 1px solid black;">
+                <div class="width__s margin__auto padding__y-l"
+                  style="border-left: 1px solid black; border-right: 1px solid black;">
+                  <div class="row type__content">
+                    <div class="column">
+                      <div
+                        style="display: flex; justify-content: left; overflow: hidden;">
+                        <img src="/assets/images/general/thinking.gif"
+                          style="width: 5%; height: auto; mix-blend-mode: multiply;"
+                          alt="Thinking Animation">
+                      </div>
+                        <h1>Week 11: Feedback & Reflection </h1>
+                  <p>
+                    It wasn't much of a feedback but more of a
+                    appreciation for my creative journey and expression. I
+                    was
+                    then
+                    introduced to a online seminar of
+                    'A Knowing Wrongness' by Fraser Muggeridge - a graphic
+                    designer who
+                    did his PHD thesis on unconventional approaches and
+                    'interuptive' methods. I was also told that this
+                    approach is a risk because I do not know where this
+                    exploration will end up as but I was encouraged to
+                    keep
+                    exploring various senses and sensors. It was also
+                    implied that I should watch the online seminar and
+                    recosider the trajectory of my reserach.
+
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </section>
+
+        </article>
+      </main>
+
+      <!-- footer, page ends here.-->
+      <footer>
+        <div class="prev__next">
+          <ul>
+            <li><a href="./week-10.html" id="go-prev">prev</a></li>
+            <li><a href="../../index.html">overview</a></li>
+            <li><a href="./week-12.html" id="go-next">next</a></li>
+          </ul>
+        </div>
+        <div class="scroll__top"><a
+            href="javascript:scrollToTop();">↑</a></div>
+      </footer>
+
+      <div id="lightbox"></div>
+      <script src="../../js/main.js"></script>
+    </body>
+
+  </html>
